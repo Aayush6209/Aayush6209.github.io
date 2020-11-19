@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+}
+#search {
+    width: 500px;
+    height: 45px;
+    margin-bottom: 20px;
+    background-image: url("lens.png");
+    position: left;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color:lightgray;
+    border-style: double;
+}
+
+#search:focus {
+    border-color: grey;
+    outline: 0px;
+}
+#search:hover {
+    border-color: grey;
+}
+.input2 {
+    background-color: rgb(242, 242, 242);
+    border-radius: 5px;
+    border-width: 0px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    color: rgb(95, 104, 113);
+}
+.input2:hover {
+    color: black;
+    border-color: rgb(95, 104, 113, 0.2);
+    border-width: 0.25px;
+    background-color:whitesmoke;
+}
+.links {
+    color: dimgray;
+    font-size: 14px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+.links:hover {
+    color: grey;
+}
+#logo {
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+#searchBtn {
+    margin-left: -50px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-color: white;
+    border-width: 0px;
+    outline-width: 0px;
+}
